@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "78232301-b6c5-4612-a272-87da353e18d7",
+		"name": "Vendor Performance Evaluation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "historical performance",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 1eff83a1a08163b6f428291263afdc8834ab0f9e",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/vendor/historical_performance",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"vendor",
+						"historical_performance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "historical performance for particular id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
